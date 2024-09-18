@@ -1,0 +1,21 @@
+# # B. 버튼 생성 & 버튼 관련 이벤트 함수 적용
+# from tkinter import *
+
+# root = Tk() # root window 생성 우선 해줘야 됨
+
+# # 버튼 관련 이벤트 함수 정의
+# def event():
+#     button['text'] = '버튼을 눌렀습니다'
+
+# def hello():
+#     button2['text'] = '버튼을 눌렀습니다'
+
+# # Button(배치하고자 하는 창이름, text="텍스트",command=실행하고자 하는 이벤트 함수)
+# button = Button(root,text="버튼 1입니다",command=event) #텍스트 부분은 '버튼 1입니다'
+# button2 = Button(root, text="버튼 2입니다",command=hello)
+
+# # pack(side=배치할 위치 선정, padx=좌우 여백 설정, pady=상하 여백 설정)
+# button.pack(side=LEFT, padx=10, pady=10)
+# button2.pack(side=RIGHT, padx=10, pady=10)
+
+# root.mainloop()
